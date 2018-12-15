@@ -1,9 +1,10 @@
 {
   "name": "rachel_website",
-  "homepage": "http://rachelmharrison.github.io/",
+  "homepage": "http://rachelharrison.xyz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "fontawesome": "^4.7.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
@@ -26,6 +27,15 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "autoprefixer": "7.1.6",
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.7.2",
+    "object-assign": "4.1.1",
+    "promise": "8.0.1",
+    "raf": "3.4.0",
+    "sw-precache-webpack-plugin": "0.11.4",
+    "whatwg-fetch": "2.0.3"
   }
 }
