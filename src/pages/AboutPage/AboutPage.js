@@ -25,7 +25,7 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              Put cool stuff about me here.
+              Welcome to my site! I am a third year student in Software Engineering 
             </p>
           </div>
         </div>

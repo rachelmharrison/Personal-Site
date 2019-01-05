@@ -14,6 +14,7 @@ const LandingPage = (props, context) => {
       <Nav />
       <main style={{ color: colorPrimary }}>
         <div className="intro-wrapper">
+        <img className="rachel-photo" src={require('../../images/IMG_5260.jpg')} />
           <div className="intro-name">Rachel Harrison</div>
           <div className="tagline">
             uOttawa Student | Software Developer | Website Builder

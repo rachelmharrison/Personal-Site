@@ -8,6 +8,7 @@ const Footer = (props, context) => {
   return (
     <footer>
       <div className="content-grid">
+        <p>Designed by Rachel Harrison</p>
       </div>
     </footer>
   );
