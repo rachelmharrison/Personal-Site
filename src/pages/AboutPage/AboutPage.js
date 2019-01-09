@@ -32,15 +32,18 @@ const AboutPage = (props, context) => {
               2. <b>Website Building:</b> Examples of my work building custom websites for people using tools like WordPress and Squarespace
             </p>
             <br/>
-            {/* This semester (January-April 2019) I am working as a part-time developer at <a href="https://www.arioplatform.com/" target="_blank">Ario</a>. I completed a co-op placement with Ario last
+            This semester (January-April 2019) I am working as a part-time developer at <a href="https://www.arioplatform.com/" target="_blank">Ario</a>. I completed a co-op placement with Ario last
             semester and I loved working there so much I came back for more! Working for a start-up is such a rewarding experience because I'm able to touch so many parts of the project.
             <br />
             <br />
-            In previous semesters I've completed co-op placements at <a href="https://fokoretail.com/" target="_blank">Foko</a> and with the IT branch of the Canada Revenue Agency. */}
+            In previous semesters I've completed co-op placements at <a href="https://fokoretail.com/" target="_blank">Foko</a> and with the IT branch of the Canada Revenue Agency.
+            <br />
+            <br />
+            You can get in touch with me at: rachel@rachelharrison.xyz
           </div>
         </div>
       </div>
-      <ScrollToNext pageSelector=".portfolio-page" />
+      <ScrollToNext pageSelector=".resume-page" />
     </div>
   );
 };

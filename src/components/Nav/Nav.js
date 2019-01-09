@@ -71,12 +71,12 @@ class Nav extends Component {
           >
             About
           </div>
-          {/* <div
+          <div
             className="menu__item"
-            onClick={(e) => this.scrollToPage('.portfolio-page')}
+            onClick={(e) => this.scrollToPage('.resume-page')}
           >
-            Portfolio
-          </div> */}
+            Experience
+          </div>
         </div>
       </nav>
     );
