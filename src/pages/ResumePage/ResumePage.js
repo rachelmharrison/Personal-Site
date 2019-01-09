@@ -141,6 +141,9 @@ const ResumePage = (props, context) => {
             </Col>
           </Row>
         </Container>
+        <br/>
+        <br/>
+        <h3>Click <a href="RachelHarrisonJan2019.pdf" download="rachel_harrison" target="_blank">here</a> to download a copy of my resumé</h3>
 
       </div>
 
