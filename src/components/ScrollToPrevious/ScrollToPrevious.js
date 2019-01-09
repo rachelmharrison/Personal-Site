@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toElement as scrollToElement } from '../../utils/scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './style.scss';
 
@@ -20,7 +21,7 @@ class ScrollToPrevious extends Component {
         onClick={(e) => this.scrollToPrevious()}
       >
         <div className="arrow bounce" style={{ color: colorPrimary }}>
-          <button className="fas fa-chevron-up fa-2x" href="#" />
+        <FontAwesomeIcon icon="sort-up" className="arrow" size='4x'/>
           <div className="scroll-text">Click Me</div>
         </div>
       </div>

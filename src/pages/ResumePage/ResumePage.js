@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ScrollToNext from '../../components/ScrollToNext';
+import ScrollToPrevious from '../../components/ScrollToPrevious';
 import './style.scss';
 import { Container, Row, Col } from 'react-grid-system';
 
@@ -146,6 +147,7 @@ const ResumePage = (props, context) => {
         <h3>Click <a href="RachelHarrisonJan2019.pdf" download="rachel_harrison" target="_blank">here</a> to download a copy of my resumé</h3>
 
       </div>
+      <ScrollToPrevious pageSelector=".about-page" />
 
     </div>
   );

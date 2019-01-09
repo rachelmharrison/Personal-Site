@@ -15,6 +15,13 @@
     }
 }
 
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+
+
+
 &.animate-icons {
   a {
     display: inline-block;

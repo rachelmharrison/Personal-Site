@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toTop as scrollToPageTop } from '../../utils/scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './style.scss';
 
@@ -40,7 +41,7 @@ class ScrollTop extends Component {
           className={`arrow ${hideArrowClass}`}
           style={{ color: colorPrimary }}
         >
-          <button className="fas fa-angle-double-up fa-2x" href="#" />
+        <FontAwesomeIcon icon="sort-up" className="arrow" size='4x'/>
           <div className="to-top">To Top</div>
         </div>
       </div>
